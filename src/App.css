@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+header{
+  
+ 
+  position: scroll;
+
+}
+.order:hover{
+  text-decoration: none;
+}
+marqu{
+  background-color: rgb(197, 197, 197);
+
+}
+formmarqu{
+  background-color: rgb(133, 163, 163);
+}
+input{
+  background-color:rgb(14, 14, 14);
+ border:1px solid white;
+ border-radius:10%;
+ color:white;
+
+}
+.sub{
+  margin-left: 60%;
+  border:1px solid black;
+  max-width:30%;
+  max-height: 0px;
+  overflow: hidden;
+  padding:10px;
+}
+.submenu{
+  text-align:center;
+
+
+  top:10%;
+
+
+}
+.kuma{
+  background-image: url("https://wallpaperaccess.com/full/1938551.jpg");
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.buttons{
+  border-radius:30%;
+}
+.kumar{
+  background-image: url("https://th.bing.com/th/id/OIP.AwVgGD8-p4PSevXBBr2L9wHaQC?pid=ImgDet&rs=1");
+  background-position: relative;
+}
+button{
+  text-align: center;
+  color:#61dafb;
+}
+.special{
+  color:rgb(56, 197, 13);
+  background-color:rgb(52, 51, 51);
+  text-align:center;
+  border-radius:50px;
+}
+.aboutus:hover{
+text-decoration: none;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.imgs{
+  max-width:"100%";
+  height:300;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
